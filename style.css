@@ -97,6 +97,9 @@ body {
 .dota-img:hover {
     background-color: #fcb8ff;
 }
+.footer-link:nth-child(2){
+    margin: 0 24px;
+}
 @media (max-width:420px) {
     .first-card-row {
         flex-direction: column;
@@ -111,21 +114,28 @@ body {
     .hero-title {
         font-size: 38px;
     }
-}
-.lohushka {
-    color: #38dd35;
-    height: 150px;
-    wight: 150px ;
-    border: 500px solid rgb(255, 255, 255);
-}
-@keyframes anim {
-    from {
-        color: brown;
+    .footer-content {
+    flex-direction: column;
     }
-    50% {
-        color: rgb(165, 101, 42);
+    .footer-link:nth-child(2) {
+        margin: 0;
     }
-    to {
-        color: rgb(212, 210, 44);
+}
+
+.logo {
+    animation-name: rotation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.logo:hover {
+    animation-play-state: paused;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
