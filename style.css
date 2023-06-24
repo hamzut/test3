@@ -112,3 +112,20 @@ body {
         font-size: 38px;
     }
 }
+.lohushka {
+    color: #38dd35;
+    height: 150px;
+    wight: 150px ;
+    border: 500px solid rgb(255, 255, 255);
+}
+@keyframes anim {
+    from {
+        color: brown;
+    }
+    50% {
+        color: rgb(165, 101, 42);
+    }
+    to {
+        color: rgb(212, 210, 44);
+    }
+}
