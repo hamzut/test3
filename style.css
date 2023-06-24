@@ -21,6 +21,9 @@ body {
     .nav-link:nth-child(2) {
         margin: 0 !important;
     }
+    .btn-purple {
+        display: block;
+    }
 }
 .hero-title {
     font-size: 64px;
@@ -93,4 +96,19 @@ body {
 }
 .dota-img:hover {
     background-color: #fcb8ff;
+}
+@media (max-width:420px) {
+    .first-card-row {
+        flex-direction: column;
+    }
+    .gta-img {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .fortnite-img {
+        margin: 0;
+    }
+    .hero-title {
+        font-size: 38px;
+    }
 }
